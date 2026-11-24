@@ -4,7 +4,7 @@ A polished, frontend-only storefront built with React. Browse a sample catalog, 
 
 Maintainer: [Bajrang Vaishnav](https://github.com/BajrangVaishnav)
 
-> **GitHub Pages:** Not live yet. After the first successful deployment, the site will be available at [https://bajrangvaishnav.github.io/E-commerce-website/](https://bajrangvaishnav.github.io/E-commerce-website/).
+> **GitHub Pages:** The site will be available at [https://bajrangvaishnav.github.io/E-commerce-website/](https://bajrangvaishnav.github.io/E-commerce-website/).
 
 ## Screenshots
 
