@@ -4,7 +4,7 @@ A polished, frontend-only storefront built with React. Browse a sample catalog, 
 
 Maintainer: [Bajrang Vaishnav](https://github.com/BajrangVaishnav)
 
-> **Live demo:** Not deployed yet. A public demo URL will be added here when one is available.
+> **GitHub Pages:** Not live yet. After the first successful deployment, the site will be available at [https://bajrangvaishnav.github.io/E-commerce-website/](https://bajrangvaishnav.github.io/E-commerce-website/).
 
 ## Screenshots
 
@@ -71,6 +71,17 @@ npm start                 # start the development server
 npm test -- --watchAll=false
 npm run build             # create a production build
 ```
+
+## Deploy to GitHub Pages
+
+The included GitHub Actions workflow deploys the production build whenever changes are pushed to `main`.
+
+1. Push this project to the `main` branch on GitHub.
+2. In the repository, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**.
+3. Wait for the **Deploy to GitHub Pages** workflow to finish in the **Actions** tab.
+4. Open [https://bajrangvaishnav.github.io/E-commerce-website/](https://bajrangvaishnav.github.io/E-commerce-website/).
+
+The workflow creates a `404.html` fallback so React routes work on refresh. The site uses sample data only; the existing non-commercial license and third-party image terms still apply.
 
 ## Security and privacy notes
 

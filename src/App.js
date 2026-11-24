@@ -31,6 +31,11 @@ import { ToastContainer } from "react-toastify";
 import ScrollToTop from "./component/ScrollToTop";
 import { getSessionUser } from "./utils/mockStore";
 
+const basename =
+  process.env.NODE_ENV === "production"
+    ? new URL(process.env.PUBLIC_URL, window.location.origin).pathname.replace(/\/$/, "")
+    : "/";
+
 function AccountRoute() {
   return getSessionUser()
     ? <Account />
@@ -40,7 +45,7 @@ function AccountRoute() {
 function App() {
 
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="app-shell">
       <Header />
       <ScrollToTop/>

@@ -4,6 +4,7 @@
   "private": false,
   "author": "BajrangVaishnav",
   "license": "PolyForm-Noncommercial-1.0.0",
+  "homepage": "https://bajrangvaishnav.github.io/E-commerce-website",
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
